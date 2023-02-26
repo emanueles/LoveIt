@@ -16,15 +16,11 @@
   }
 
   .post-meta {
-    font-size: .875rem;
-    color: $global-font-secondary-color;
-
-    span {
-      display: inline-block;
-    }
+    font-size: 1rem;
+    color: $global-font-color;
 
     [theme=dark] & {
-      color: $global-font-secondary-color-dark;
+      color: $global-font-color-dark;
     }
 
     @include link(false, true);
