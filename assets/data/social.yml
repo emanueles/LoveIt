@@ -70,6 +70,14 @@ youtubelegacy:
   Icon:
     Class: fab fa-youtube fa-fw
 
+# 009: YouTube Handle
+youtubehandle:
+  Weight: 9
+  Prefix: https://www.youtube.com/
+  Title: YouTube
+  Icon:
+    Class: fab fa-youtube fa-fw
+
 # 010: YouTube Custom
 youtubecustom:
   Weight: 10
@@ -568,6 +576,15 @@ rootme:
   Prefix: https://www.root-me.org/
   Icon:
     Src: svg/icons/rootme.svg
+
+# 073: Lattes
+lattes:
+  Weight: 73
+  Title: Lattes CV
+  Prefix: http://lattes.cnpq.br/
+  Icon:
+    Class: fa-solid fa-eye fa-fw
+
 
 # Phone
 phone:

@@ -90,6 +90,11 @@
         </div>
     {{- end -}}
 
+    {{- with $profile.welcome -}}
+        <div class="home-welcome">
+            {{- . | safeHTML -}}
+        </div>
+    {{- end -}}
     {{- with $profile.disclaimer -}}
         <h3 class="home-disclaimer">
             {{- . | safeHTML -}}
