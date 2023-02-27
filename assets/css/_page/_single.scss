@@ -16,11 +16,15 @@
   }
 
   .post-meta {
-    font-size: 1rem;
-    color: $global-font-color;
+    font-size: .875rem;
+    color: $global-font-secondary-color;
+
+    span {
+      display: inline-block;
+    }
 
     [theme=dark] & {
-      color: $global-font-color-dark;
+      color: $global-font-secondary-color-dark;
     }
 
     @include link(false, true);
@@ -39,10 +43,6 @@
       height: auto;
       margin: 0 auto;
       overflow: hidden;
-    }
-
-    img.lazyloaded {
-      width: 100%;
     }
   }
 
