@@ -117,7 +117,8 @@
     }
 
     b, strong {
-      font-weight: bold;
+      font-weight: 400;
+      color: #111111;
 
       [theme=dark] & {
         color: #ddd;

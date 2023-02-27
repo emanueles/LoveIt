@@ -20,11 +20,11 @@ $global-background-color: #fff !default;
 $global-background-color-dark: #292a2d !default;
 
 // Color of the text
-$global-font-color: #161209 !default;
+$global-font-color: #333333 !default;
 $global-font-color-dark: #a9a9b3 !default;
 
 // Color of the secondary text
-$global-font-secondary-color: #a9a9b3 !default;
+$global-font-secondary-color: #676767 !default;
 $global-font-secondary-color-dark: #5d5d5f !default;
 
 // Color of the link
@@ -78,7 +78,7 @@ $search-background-color-dark: #363636 !default;
 // ========== Single Content ========== //
 // Font size of the TOC
 $toc-title-font-size: 1.2rem !default;
-$toc-content-font-size: 1rem !default;
+$toc-content-font-size: 1.1rem !default;
 
 // Color of the single link
 $single-link-color: $global-link-color !default;
