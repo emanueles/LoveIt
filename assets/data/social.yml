@@ -585,6 +585,14 @@ lattes:
   Icon:
     Class: fa-solid fa-eye fa-fw
 
+# 074: Bluesky
+bluesky:
+  Weight: 74
+  Title: Bluesky
+  Prefix: https://bsky.app/profile/
+  Icon:
+    Class: fa-brands fa-bluesky
+
 
 # Phone
 phone:
