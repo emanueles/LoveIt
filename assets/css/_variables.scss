@@ -12,7 +12,7 @@
 // Font and Line Height
 $global-font-family: system-ui, -apple-system, Segoe UI, Roboto, Emoji, Helvetica, Arial, sans-serif !default;
 $global-font-size: 16px !default;
-$global-font-weight: 400 !default;
+$global-font-weight: 300 !default;
 $global-line-height: 1.5rem !default;
 
 // Color of the background
@@ -20,11 +20,11 @@ $global-background-color: #fff !default;
 $global-background-color-dark: #292a2d !default;
 
 // Color of the text
-$global-font-color: #161209 !default;
+$global-font-color: #333333 !default;
 $global-font-color-dark: #a9a9b3 !default;
 
 // Color of the secondary text
-$global-font-secondary-color: #a9a9b3 !default;
+$global-font-secondary-color: #676767 !default;
 $global-font-secondary-color-dark: #5d5d5f !default;
 
 // Color of the link
@@ -81,11 +81,11 @@ $toc-title-font-size: 1.2rem !default;
 $toc-content-font-size: 0.875rem !default;
 
 // Color of the single link
-$single-link-color: #2d96bd !default;
-$single-link-color-dark: #55bde2 !default;
+$single-link-color: $global-link-color !default;
+$single-link-color-dark: $global-link-color-dark !default;
 
 // Color of the hover single link
-$single-link-hover-color: #ef3982 !default;
+$single-link-hover-color: #0c87b4 !default;
 $single-link-hover-color-dark: #bdebfc !default;
 
 // Color of the table background

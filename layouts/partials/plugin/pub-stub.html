@@ -1,0 +1,9 @@
+{{- with .Content -}}
+    {{- . | safeHTML -}}.&nbsp; 
+{{- end -}}
+{{- with .In -}}
+    {{- . | safeHTML -}},&nbsp; 
+{{- end -}}
+{{- with .Year -}}
+    {{- . | safeHTML -}}.
+{{- end -}}

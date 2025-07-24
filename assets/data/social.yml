@@ -70,6 +70,14 @@ youtubelegacy:
   Icon:
     Class: fab fa-youtube fa-fw
 
+# 009: YouTube Handle
+youtubehandle:
+  Weight: 9
+  Prefix: https://www.youtube.com/
+  Title: YouTube
+  Icon:
+    Class: fab fa-youtube fa-fw
+
 # 010: YouTube Custom
 youtubecustom:
   Weight: 10
@@ -601,6 +609,22 @@ codeberg:
   Icon:
     Simpleicons: codeberg
 
+# 077: Lattes
+lattes:
+  Weight: 77
+  Title: Lattes CV
+  Prefix: http://lattes.cnpq.br/
+  Icon:
+    Class: fa-solid fa-eye fa-fw
+
+# 078: Bluesky
+bluesky:
+  Weight: 78
+  Title: Bluesky
+  Prefix: https://bsky.app/profile/
+  Icon:
+    Src: svg/icons/bluesky.svg
+    
 # Phone
 phone:
   Weight: 98
